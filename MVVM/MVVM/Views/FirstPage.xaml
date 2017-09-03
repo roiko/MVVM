@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MVVM" x:Class="MVVM.FirstPage" BackgroundImage="background.png">
+	<StackLayout Padding="20">
+		<Label x:Name="lblDescription" Text="This is a meteo utility.&#x0a;Ensure you have the geolocation feature enabled on your phone and click the button." Font="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="White"/>
+		<Button x:Name="btnExecute" Text="Retrieve current location" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnLocationButtonClicked" BackgroundColor="Navy" TextColor="White"/>
+		<ActivityIndicator x:Name="ai" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="true" Color="White"/>
+		<Label x:Name="lblAddress" Text="{Binding Path=Address, StringFormat='Current address is:{0}'}" Font="Large" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="White"/>
+		<Label x:Name="lblWeather" Text="{Binding Path=WeatherDescr, StringFormat='Current weather is:{0}'}" Font="Large" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="White"/>
+		<Button x:Name="btnReset" Text="Reset" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnResetButtonClicked" BackgroundColor="Navy" TextColor="White"/>
+	</StackLayout>
+	<ContentPage.BindingContext>
+		<local:FirstPageViewModel/>
+	</ContentPage.BindingContext>
+</ContentPage>

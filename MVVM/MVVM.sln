@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{49E9D40B-D600-4DE8-B7AB-491F8D4F010B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM.Droid", "Droid\MVVM.Droid.csproj", "{55CA324D-7D07-4397-9DAD-33EE43D264C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTClient", "RESTClient\RESTClient.csproj", "{E00BE5C1-FDE7-4D72-9C71-F14551F8D6FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49E9D40B-D600-4DE8-B7AB-491F8D4F010B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E9D40B-D600-4DE8-B7AB-491F8D4F010B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E9D40B-D600-4DE8-B7AB-491F8D4F010B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E9D40B-D600-4DE8-B7AB-491F8D4F010B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CA324D-7D07-4397-9DAD-33EE43D264C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CA324D-7D07-4397-9DAD-33EE43D264C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CA324D-7D07-4397-9DAD-33EE43D264C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CA324D-7D07-4397-9DAD-33EE43D264C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00BE5C1-FDE7-4D72-9C71-F14551F8D6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00BE5C1-FDE7-4D72-9C71-F14551F8D6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00BE5C1-FDE7-4D72-9C71-F14551F8D6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00BE5C1-FDE7-4D72-9C71-F14551F8D6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
